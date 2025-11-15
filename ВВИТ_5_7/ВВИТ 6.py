@@ -32,9 +32,9 @@ class Car(Vehicle):
 
 
 if __name__ == "__main__":
-    user = UserAccount("arhip", "arh1p@mail.ru", "sadh-213s-3lrew-42kf")
+    user = UserAccount("HazDeen", "h4zdeen@gmail.com", "FDAS-54FD-7SDV-4SVB")
     user.set_password("22031232")
     print(user.check_password("22031232"))
 
-    car = Car("Mercedes", "G-Class", "Бензин")
+    car = Car("BMW", "F90", "Бензин")
     print(car.get_info())
